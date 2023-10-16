@@ -10,7 +10,7 @@ import "bootstrap-icons/font/bootstrap-icons.css"; // Import the Bootstrap Icons
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Router basename='/'>
+    <Router>
       <App />
     </Router>
   </React.StrictMode>,
