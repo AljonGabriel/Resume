@@ -97,7 +97,7 @@ function Navbar() {
                     <li>
                       <a
                         className='dropdown-item'
-                        href='aljongabriel.github.io/AiQuee/'
+                        href='https://aljongabriel.github.io/AiQuee/'
                         target='_blank'
                         rel='noreferrer'
                       >
@@ -107,7 +107,7 @@ function Navbar() {
                     <li>
                       <a
                         className='dropdown-item'
-                        href='aljongabriel.github.io/guessing_game/'
+                        href='https://aljongabriel.github.io/guessing_game/'
                         target='_blank'
                         rel='noreferrer'
                       >
