@@ -7,7 +7,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path='/resume' element={<About />}></Route>
+        <Route path='/' element={<About />}></Route>
       </Routes>
     </>
   );
