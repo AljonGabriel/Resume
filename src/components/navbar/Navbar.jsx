@@ -10,7 +10,7 @@ function Navbar() {
               <li className='nav-item me-3'>
                 <i className='bi bi-envelope text-light'></i>
                 <small className='ms-2 text-light'>
-                  aljongabrielambasvaldez@gmail.com
+                  Aljongabrielambasvaldez@gmail.com
                 </small>
               </li>
               <li className='nav-item'>
