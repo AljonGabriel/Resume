@@ -97,7 +97,7 @@ function Navbar() {
                     <li>
                       <a
                         className='dropdown-item'
-                        href='https://github.com/AljonGabriel/AiQuee'
+                        href='aljongabriel.github.io/AiQuee/'
                         target='_blank'
                         rel='noreferrer'
                       >
@@ -107,7 +107,7 @@ function Navbar() {
                     <li>
                       <a
                         className='dropdown-item'
-                        href='https://github.com/AljonGabriel/guessing_game'
+                        href='aljongabriel.github.io/guessing_game/'
                         target='_blank'
                         rel='noreferrer'
                       >
@@ -117,11 +117,31 @@ function Navbar() {
                     <li>
                       <a
                         className='dropdown-item'
-                        href='https://github.com/AljonGabriel/Tic-Tac-Toe-Ract'
+                        href='https://aljongabriel.github.io/tic-tac-toe/'
                         target='_blank'
                         rel='noreferrer'
                       >
                         Tic-Tac-Toe
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className='dropdown-item'
+                        href='https://aljongabriel.github.io/Prime_Number/'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        Prime Number
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className='dropdown-item'
+                        href='https://aljongabriel.github.io/Odd_Even_Number/'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        Odd Even Number
                       </a>
                     </li>
                   </ul>
@@ -215,9 +235,6 @@ function Navbar() {
                         data-bs-dismiss='modal'
                       >
                         Close
-                      </button>
-                      <button type='button' className='btn btn-primary'>
-                        Save changes
                       </button>
                     </div>
                   </div>

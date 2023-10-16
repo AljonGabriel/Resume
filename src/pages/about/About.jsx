@@ -17,14 +17,22 @@ function About() {
                 you.
               </p>
               <a href={CV} download='CV'>
-                <button className='btn btn-primary my-3'>Download</button>
+                <button className='btn btn-primary my-3 tada'>
+                  Heres my CV
+                </button>
               </a>
             </section>
           </section>
         </section>
         <section className='container-fluid bg-white pt-5 m-0'>
           <section className='container d-md-flex justify-content-center align-items-center '>
-            <h2>Under Construct</h2>
+            <div>
+              <h2>Under Construct</h2>
+              <p>
+                In this section, I will showcase videos of my projects,
+                demonstrating their functionality.
+              </p>
+            </div>
           </section>
         </section>
       </main>

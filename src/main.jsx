@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import {RouterProvider, createBrowserRouter} from "react-router-dom";
+import "animate.css";
 
 // Import the Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
