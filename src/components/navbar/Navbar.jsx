@@ -172,7 +172,7 @@ function Navbar() {
                     <li>
                       <a
                         className='dropdown-item'
-                        href='www.linkedin.com/in/aljon-gabriel-valdez-822901171'
+                        href='https://www.linkedin.com/in/aljon-gabriel-valdez-822901171'
                         target='_blank'
                         rel='noreferrer'
                       >
