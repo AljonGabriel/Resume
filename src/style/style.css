@@ -1,0 +1,14 @@
+@media (min-width: 576px) {
+  section.w-sm-100 p {
+    width: 60%;
+  }
+}
+
+.fixed-width-100 {
+  width: 500px;
+  outline: 1px red solid;
+}
+
+.outline {
+  outline: 1px solid red;
+}

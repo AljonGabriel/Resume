@@ -175,7 +175,7 @@ function Navbar() {
 
               <button
                 type='button'
-                className='btn btn-primary'
+                className='btn btn-outline-primary'
                 data-bs-toggle='modal'
                 data-bs-target='#exampleModal'
               >
@@ -193,7 +193,7 @@ function Navbar() {
                   <div className='modal-content'>
                     <div className='modal-header'>
                       <h1 className='modal-title fs-5' id='exampleModalLabel'>
-                        Modal title
+                        Creating Soon
                       </h1>
                       <button
                         type='button'
@@ -202,7 +202,12 @@ function Navbar() {
                         aria-label='Close'
                       ></button>
                     </div>
-                    <div className='modal-body'>...</div>
+                    <div className='modal-body'>
+                      <ul>
+                        <li>Inventory System using Mern</li>
+                        <li>E-Commerce Website using Mern</li>
+                      </ul>
+                    </div>
                     <div className='modal-footer'>
                       <button
                         type='button'
