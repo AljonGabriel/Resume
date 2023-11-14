@@ -4,11 +4,6 @@
   }
 }
 
-.fixed-width-100 {
-  width: 500px;
-  outline: 1px red solid;
-}
-
 .outline {
   outline: 1px solid red;
 }
@@ -16,7 +11,6 @@
 .tada {
   display: inline-block;
   margin: 0 0.5rem;
-
   animation: tada infinite; /* Add "infinite" here to make it run indefinitely */
   animation-duration: 2s;
 }
