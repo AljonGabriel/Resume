@@ -1,26 +1,32 @@
-import React, {useState} from "react";
-import {Container, Row, Col, Figure, Button} from "react-bootstrap";
-import Img from "./../../assets/PF/CorporateHalf.png";
-import CV from "./../../assets/CV/WD Resume.pdf";
-import "./../../style/style.css";
-import YouTube from "react-youtube";
+import React, { useState } from 'react';
+import { Container, Row, Col, Figure, Button } from 'react-bootstrap';
+import Img from './../../assets/PF/CorporateHalf.png';
+import CV from './../../assets/CV/WD Resume.pdf';
+import './../../style/style.css';
+import YouTube from 'react-youtube';
 
 function About() {
   const [videos, setVideos] = useState([
     {
-      id: "P-CEczROpmE?si=gn0_SLD0Ag2g-WXm",
-      systemName:
-        "MERN Stack & Redux Inventory System - CRUD, Audit Logs, and Dynamic Charts",
+      id: 'P-CEczROpmE?si=gn0_SLD0Ag2g-WXm',
+      systemName: 'Inventory Management System',
+      languages: 'MERN Stack',
     },
     {
-      id: "9DMwCDxthus?si=1IFpUc5wy7Z0prLV",
-      systemName: "Log-in modal using Javascript, Ajax, PHP and MySQL",
+      id: '9DMwCDxthus?si=1IFpUc5wy7Z0prLV',
+      systemName: 'Log-in/Sign-up Modal',
+      languages: 'HTML, CSS, JavaScript, PHP, Ajax',
+    },
+    {
+      id: 'X4NRr_cQr8Q?si=OJNaNgHl1RNVn9rO',
+      systemName: 'Web Quiz App',
+      languages: 'JavaScript and Bootstrap',
     },
   ]);
 
   const opts = {
-    height: "500px",
-    width: "100%",
+    height: '500px',
+    width: '100%',
     playerVars: {
       autoplay: 1,
     },
@@ -32,7 +38,11 @@ function About() {
         <section className='container-fluid bg-dark pt-5 mb-0'>
           <Container className='d-md-flex justify-content-center align-items-center'>
             <Figure className='p-0 m-0 w-100 d-flex align-item-center justify-content-center'>
-              <Figure.Image src={Img} alt={Img} width={400} />
+              <Figure.Image
+                src={Img}
+                alt={Img}
+                width={400}
+              />
             </Figure>
             <section className='p-2 p-md-0'>
               <p className='text-light m-auto'>
@@ -40,8 +50,12 @@ function About() {
                 all in one place. I'm excited to share my skills and work with
                 you.
               </p>
-              <a href={CV} download='CV'>
-                <Button variant='primary' className='my-3 tada'>
+              <a
+                href={CV}
+                download='CV'>
+                <Button
+                  variant='primary'
+                  className='my-3 tada'>
                   Here's my CV
                 </Button>
               </a>
@@ -49,37 +63,46 @@ function About() {
           </Container>
         </section>
 
-        <Container className='' fluid>
+        <Container
+          className=''
+          fluid>
           <header>
             <h3 className='text-center mt-5'>Projects Demo</h3>
             <p className='text-center'>
               <a
                 href='https://www.youtube.com/channel/UCTgwmp5DAlCWtEJkkXHTRyg'
-                style={{textDecoration: "none"}}
+                style={{ textDecoration: 'none' }}
                 className='text-danger'
                 target='_blank'
-                rel='noopener noreferrer'
-              >
+                rel='noopener noreferrer'>
                 YouTube Channel
               </a>
             </p>
           </header>
-          <Row xs={1} lg={3}>
+          <Row
+            xs={1}
+            lg={3}>
             {videos &&
               videos.map((video, index) => (
                 <Col key={index}>
                   <div>
                     <h6
-                      className='my-3'
+                      className='mt-3'
                       style={{
-                        whiteSpace: "nowrap",
-                        overflowX: "auto",
-                        maxWidth: "100%",
-                      }}
-                    >
+                        whiteSpace: 'nowrap',
+                        overflowX: 'auto',
+                        maxWidth: '100%',
+                      }}>
                       {video.systemName}
                     </h6>
-                    <YouTube videoId={video.id} opts={opts} className='p-1' />
+                    <p className='text-secondary'>
+                      Languages used: {video.languages}
+                    </p>
+                    <YouTube
+                      videoId={video.id}
+                      opts={opts}
+                      className='p-1'
+                    />
                   </div>
                 </Col>
               ))}
